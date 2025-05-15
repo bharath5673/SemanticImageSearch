@@ -46,10 +46,15 @@ Whether you're building:
 ## 📦 Requirements
 
 - Python 3.8+
-- `ultralytics` (with `solutions`)
+- `ultralytics` 
 - `streamlit`
-- `numpy`, `PIL`, `torch`
 
 Install all dependencies:
 ```bash
-pip install ultralytics streamlit numpy pillow torch
+pip install ultralytics streamlit
+```
+
+run:
+```bash
+streamlit run test_SIS.py
+```
